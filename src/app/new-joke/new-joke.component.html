@@ -1,0 +1,11 @@
+<h2>Add a new joke!</h2>
+<label>Type: </label>
+<input id="type" name="type" #typeIN type="text" placeholder="Type"/>
+<br>
+<label>Setup: </label>
+<input id="setup" name="setup" #setup type="text" placeholder="Setup"/>
+<br>
+<label>Punchline: </label>
+<input id="punchline" name="punchline" #punchline type="text" placeholder="punchline"/>
+<br>
+<input id="add" type="button"   value="Add the joke" (click)="AddJoke(typeIN.value, setup.value, punchline.value)"/>

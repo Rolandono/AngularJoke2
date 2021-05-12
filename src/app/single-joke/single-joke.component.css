@@ -1,0 +1,27 @@
+h2{
+    text-align: center;
+    margin-top: 150px;
+}
+p{
+    text-align: center;
+}
+input{
+    margin-top: 10px;
+    width: 100px;  
+}
+label{
+    margin-left: calc( ( 100% - 280px ) / 2 );
+}
+#type{
+    margin-top: 50px;
+}
+#setup{
+    width: 227px;
+}
+#punchline{
+    width: 200px;
+}
+#update{
+    width: 180px;
+    margin-left: calc( ( 100% - 180px ) / 2 );
+}

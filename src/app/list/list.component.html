@@ -1,0 +1,20 @@
+<table>
+    <thead>
+        <th id="id">ID</th>
+        <th id="type">Type</th>
+        <th id="setup">Setup</th>
+        <th id="punchline">Punchline</th>
+        <th></th>
+        <th></th>
+    </thead>
+    <tbody id="jokeBody">
+        <tr *ngFor="let joke of jokesList">
+            <td>{{joke[0]}}</td>
+            <td>{{joke[1]}}</td>
+            <td>{{joke[2]}}</td>
+            <td>{{joke[3]}}</td>
+            <td><img (click)="editJoke(joke[0])" src="assets/edit.png"></td>
+            <td><img (click)="delJoke(joke[0])" src="assets/del.png"></td>       
+        </tr>
+    </tbody>
+</table>

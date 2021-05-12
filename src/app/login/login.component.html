@@ -1,0 +1,8 @@
+<h2>Login to check our great jokes!</h2>
+<label>Username: </label>
+<input type="text" #user id="user" name="user" placeholder="Username"/>
+<br>
+<label>Password: </label>
+<input id="pass" name="pass" #pass type="password" placeholder="Password"/>
+<br>
+<input id="login" type="button"  (click)="Login(user.value, pass.value)" value="Login" />

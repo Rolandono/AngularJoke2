@@ -1,0 +1,14 @@
+<h2>Selected joke: {{id}}</h2>
+<p><b>Type:</b> {{type}}</p>
+<p><b>Setup:</b> {{setup}}</p>
+<p><b>Punchline:</b> {{punchline}}</p>
+<label>Type: </label>
+<input id="type" name="type" #typeIN type="text" placeholder="Type" value="{{type}}"/>
+<br>
+<label>Setup: </label>
+<input id="setup" name="setup" #setupIN type="text" placeholder="Setup" value="{{setup}}"/>
+<br>
+<label>Punchline: </label>
+<input id="punchline" name="punchline" #punchlineIN type="text" placeholder="punchline" value="{{punchline}}"/>
+<br>
+<input id="update" type="button"   value="Update the joke" (click)="UpdateJoke(id, typeIN.value, setupIN.value, punchlineIN.value)"/>

@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+ul, li{
+    display: inline-block;
+}
+ul{
+    text-align: center;
+    margin: 0;
+    padding-left: 0;
+    width: 100%;
+    background-color: red;
+}
+li{
+    padding: 30px;
+    width: 150px;
+    font-size: 20px;
+}
+li:hover{
+    background-color: brown;
+}

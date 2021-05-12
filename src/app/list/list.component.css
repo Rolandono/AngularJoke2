@@ -1,0 +1,33 @@
+
+table{
+    margin-top: 80px;
+    width: 60%;
+    margin-left: 20%;
+    text-align: right;
+    border-collapse: collapse;
+}
+th{
+    padding: 10px;
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+    background-color: darksalmon
+}
+tr{    
+    height: 40px;
+    border-bottom: 1px solid red;
+}
+tr:nth-child(even) {
+  background-color: bisque;
+}
+#id{
+    width: 8%;
+}
+#type{
+    width: 12%;
+}
+#setup{
+    width: 40%;
+}
+#punchline{
+    width: 30%;
+}
